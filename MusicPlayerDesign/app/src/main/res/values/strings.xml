@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="player">Player</string>
+    <string name="library">Library</string>
+    <string name="playlist">Playlist</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="settings">Settings</string>
+    <string name="player_text">Here is the music player.\n\nTo Do:\n- The mediaPlayer class should be implemented\n- OnClickListeners should be attached to each button, therefore they behave as expected: Repeat the playlist, Skip to previous track, Play/Pause the player, Skip to the next track, Shuffle the playlist\n- Implement the ProgressBar with the current state of play and the length of the track played with the left and right TextViews\n- Retrieve information about the playlist from the PlaylistActivity (passing bundle with Intent)\n- Add Title, Artist, Album resource displayed on the Image of the album</string>
+    <string name="playlist_text">Here is the playlist currently playing.\n\nTo Do:\n- Implementation of a scrolling list with the tracks in the playlist\n- Implementation of an architecture with thumbnails for each track (image, title, artist, album, track duration)\n- Add possibility to inflate a thumbnail to get more info on a track\n- Add possibility to remove a track from the list\n- Create a Button with EditTextView to allow to save the current playlist as favorite which will be displayed on top of the library\n- Implementation of a small player UI to view the current track played</string>
+    <string name="library_text">Here is the music library.\n\nTo Do:\n- Implementation of a scrollable TabLayout with three TabItems (filters): Favorite tracks, Albums, Artists\n- Implementation of a search interface using both the search widget and the search dialog\n- Create checkboxes (see QuizApp for methods such as isChecked) to display whether the track is in the playlist or not\n- Add a recycle bin to remove definitely an element from the library or create a remove button</string>
+    <string name="settings_text">Here are the settings.\n\nTo Do:\n- Implementation of a theme changer (colors, size of the UI) with RadioButtons to allow the user to change the general theme of the UI\n- Create an equalizer (Equalizer class) with customised SeekBars to mix the output signal of the player\n- Propose common types of preset mix setting</string>
+    <string name="default_value">0.00</string>
+</resources>

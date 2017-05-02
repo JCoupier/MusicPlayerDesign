@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.android.musicplayerdesign.PlayerActivity">
+
+    <TextView
+        android:id="@+id/settingsTextView"
+        style="@style/ExplanationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_text"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/bottomButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/playerButton"
+            style="@style/DefaultMenuButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_play_arrow_white_small"
+            android:gravity="center_horizontal"
+            android:text="@string/player" />
+
+        <TextView
+            android:id="@+id/playlistButton"
+            style="@style/DefaultMenuButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_list_white_small"
+            android:gravity="center_horizontal"
+            android:text="@string/playlist" />
+
+        <TextView
+            android:id="@+id/libraryButton"
+            style="@style/DefaultMenuButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_library_music_white_small"
+            android:gravity="center_horizontal"
+            android:text="@string/library" />
+
+        <TextView
+            android:id="@+id/settingsButton"
+            style="@style/HighlightedMenuButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_settings_white_small"
+            android:gravity="center_horizontal"
+            android:text="@string/settings" />
+
+    </LinearLayout>
+
+</RelativeLayout>

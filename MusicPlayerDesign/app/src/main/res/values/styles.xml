@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Default Menu Button style. -->
+    <style name="DefaultMenuButton">
+        <item name="android:padding">8dp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_shape</item>
+    </style>
+
+    <!-- Highlighted Menu Button style. -->
+    <style name="HighlightedMenuButton">
+        <item name="android:padding">8dp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_shape_highlight</item>
+    </style>
+
+    <!-- Circle Player Button style. -->
+    <style name="CirclePlayerButton">
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/button_shape_circle</item>
+    </style>
+
+    <!-- Small Circle Player Button style. -->
+    <style name="SmallCirclePlayerButton">
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/button_shape_circle_small</item>
+    </style>
+
+    <!-- TextViews for the ProgressBar style. -->
+    <style name="TextViewProgressBar">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:text">@string/default_value</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Custom ProgressBar style. -->
+    <style name="CustomProgressBarHorizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/custom_progress_bar_horizontal</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+
+    <!-- Explanation TextViews style. -->
+    <style name="ExplanationTextView">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/textview_border</item>
+    </style>
+
+</resources>
